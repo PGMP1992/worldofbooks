@@ -5,7 +5,9 @@
     flex-direction: row;
     max-width: 20%;
     padding: 10px;
-   
+    border-style: solid;
+    border-color: rgb(228, 228, 228);
+    
     
 }
 .bookdisplay

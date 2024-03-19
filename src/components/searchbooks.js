@@ -11,8 +11,9 @@ export default function searchbooks() {
       <Bookcard
       id={values.id}
       title={values.title}
-      autor={values.autor}
+      author={values.author}
       type={values.type}
+      category={values.category}
       price={values.price}
       src={values.src}
       />
@@ -25,7 +26,7 @@ export default function searchbooks() {
    <div>
       <Menu />
       <div>
-        <h1>Search books</h1>
+        <h2 style={{margin:10}}>Search books</h2>
           <div className='bookdisplay'>
           {Books.map(allBooks)}
           </div>

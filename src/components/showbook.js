@@ -29,21 +29,25 @@ const location=useLocation();
 console.log(location)
 const book =location.state;
 
-const {id,title,autor,type,price,src} =book;
+const {id,title,author,type,price,src,category} =book;
 const imgarray=[Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9,Img10,
     Img11,Img12,Img13,Img14,Img15,Img16,Img17,Img18,Img19,Img20,Img21]
 let imgsrc=imgarray[id-1];
   return (
     <div>
         <Menu />
-       <div>
-        <img src={imgsrc}>
-       
-        </img><br/>
-        {title}<br/>
-        {autor}<br/>
-        {price}
+        <div className='showbook'>
+            <img src={imgsrc} alt={title} className='showimg'>
+            </img><br/>
+            <div className='showinfo'>
+                <h4>{title}<br/></h4>
+                By: {author}<br/><br/>
+                Category: {category}<br/><br/>
+                {type}<br/>
+                <p>description <br/></p>
+                ${price}
+            </div>
         </div>
-        </div>
+    </div>
   )
 }
