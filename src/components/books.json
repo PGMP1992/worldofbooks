@@ -1,0 +1,91 @@
+[
+    {
+        "id":1,
+        "title": "100 Go Mistakes And How to Avoid Them",
+        "author":"Teiva Harsanyi",
+        "category":"Computing",
+        "price":35.49,
+        "type":"Paperback"
+    },
+    {
+        "id":2,
+        "title": "The Adventures of Huckeberry Finn",
+        "author":"Children",
+        "category":"Fiction",
+        "price":2.45,
+        "type":"pdf"
+    },
+    {
+        "id":3,
+        "title": "The Adventures of Huckeberry Finn",
+        "author":"Mark Twain",
+        "category":"Children",
+        "price":2.45,
+        "type":"Paperback"
+    },
+    {
+        "id":4,
+        "title": "The Clean Coder",
+        "author":"Robert C. Martin",
+        "category":"Computing",
+        "price":35.80,
+        "type":"Paperback"
+    },
+    {
+        "id":5,
+        "title": "Learning Vue",
+        "author":"Maya Shavin",
+        "category":"Computing",
+        "price":29.90,
+        "type":"Paperback"
+    },
+    {
+        "id":6,
+        "title": "I´m Not Sleepy",
+        "author":"Raahat Kaduji",
+        "category":"Children",
+        "price":18.30,
+        "type":"Hardback"
+    },
+    {
+        "id":7,
+        "title": "Japan - Travel Guide",
+        "author":"Chris Rowthorn",
+        "category":"Travel",
+        "price":15.40,
+        "type":"Paperback"
+    },
+    {
+        "id":8,
+        "title": "Nepal - Travel Guide",
+        "author":"Bradley Mayhew",
+        "category":"Travel",
+        "price":22.80,
+        "type":"Paperback"
+    },
+    {
+        "id":9,
+        "title": "Pocket Madeira",
+        "author":"Marc Di Ducra",
+        "category":"Travel",
+        "price":13.50,
+        "type":"Paperback"
+    },
+    {
+        "id":10,
+        "title": "What Makes a Garden",
+        "author":"Jinny Blom",
+        "category":"Home and Garden",
+        "price":28.50,
+        "type":"Hardback"
+    },
+    {
+        "id":10,
+        "title": "100 Herbs to Grow",
+        "author":"Jekka McVicar",
+        "category":"Home and Garden",
+        "price":8.20,
+        "type":"Hardback"
+    }
+    
+]
