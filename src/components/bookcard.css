@@ -1,13 +1,19 @@
-.bookstyle
+.card
 {
-    display: flex;
-    flex-direction: column;
+   
     border-style:solid;
     border-color: blue;
     text-align: center;
-  
+   
 }
 .imgstyle
 {
     width: 80%;
+    height: auto;
+}
+.info
+{
+    font-size: 12px;
+    text-align: left;
+    align-items: center;
 }

@@ -30,7 +30,7 @@ const imgarray=[Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9,Img10,
 let imgsrc=imgarray[id-1];
   return (
     
-        <div classname='bookstyle'>
+        <div classname='card'>
             <input type="hidden" id={id} />
             <Link to=
                 {"/showbook"}
@@ -41,6 +41,7 @@ let imgsrc=imgarray[id-1];
                         className='imgstyle'
                     />
             </Link>
+            <div className='info'>
             Title: {title}<br/>
             Autor: {autor}<br/>
             Type: {type}<br/>
@@ -50,6 +51,7 @@ let imgsrc=imgarray[id-1];
                  state={book}>
                 <button>Show book</button>
             </Link>
+            </div>
         </div>
   )
 }
