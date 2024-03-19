@@ -5,23 +5,26 @@
         "author":"Teiva Harsanyi",
         "category":"Computing",
         "price":35.49,
-        "type":"Paperback"
+        "type":"Paperback",
+        "src":"100gomistakesandhowtoavoidthem.png"
     },
     {
         "id":2,
-        "title": "The Adventures of Huckeberry Finn",
-        "author":"Children",
-        "category":"Fiction",
-        "price":2.45,
-        "type":"pdf"
-    },
-    {
-        "id":3,
-        "title": "The Adventures of Huckeberry Finn",
+        "title": "The Adventures of Huckleberry Finn",
         "author":"Mark Twain",
         "category":"Children",
         "price":2.45,
-        "type":"Paperback"
+        "type":"pdf",
+        "src":"huckleberryfin.jfif"
+    },
+    {
+        "id":3,
+        "title": "The Adventures of Huckleberry Finn",
+        "author":"Mark Twain",
+        "category":"Children",
+        "price":2.45,
+        "type":"Paperback",
+        "src":"huckleberryfin.jfif"
     },
     {
         "id":4,
@@ -29,7 +32,8 @@
         "author":"Robert C. Martin",
         "category":"Computing",
         "price":35.80,
-        "type":"Paperback"
+        "type":"Paperback",
+        "src":"thecleancoder.png"
     },
     {
         "id":5,
@@ -37,15 +41,17 @@
         "author":"Maya Shavin",
         "category":"Computing",
         "price":29.90,
-        "type":"Paperback"
+        "type":"Paperback",
+        "src":"learningvue.png"
     },
     {
         "id":6,
-        "title": "I´m Not Sleepy",
+        "title": "Im Not Sleepy",
         "author":"Raahat Kaduji",
         "category":"Children",
         "price":18.30,
-        "type":"Hardback"
+        "type":"Hardback",
+        "src":"imnotsleepy.png"
     },
     {
         "id":7,
@@ -53,7 +59,9 @@
         "author":"Chris Rowthorn",
         "category":"Travel",
         "price":15.40,
-        "type":"Paperback"
+        "type":"Paperback",
+        "src":"japantravelguide.png"
+        
     },
     {
         "id":8,
@@ -61,7 +69,8 @@
         "author":"Bradley Mayhew",
         "category":"Travel",
         "price":22.80,
-        "type":"Paperback"
+        "type":"Paperback",
+        "src":"nepaltravelguide.png"
     },
     {
         "id":9,
@@ -69,7 +78,8 @@
         "author":"Marc Di Ducra",
         "category":"Travel",
         "price":13.50,
-        "type":"Paperback"
+        "type":"Paperback",
+        "src":"pocketmadeira.png"
     },
     {
         "id":10,
@@ -77,7 +87,8 @@
         "author":"Jinny Blom",
         "category":"Home and Garden",
         "price":28.50,
-        "type":"Hardback"
+        "type":"Hardback",
+        "src":"whatmakesagarden.png"
     },
     {
         "id":10,
@@ -86,6 +97,95 @@
         "category":"Home and Garden",
         "price":8.20,
         "type":"Hardback"
+    },
+    {
+        "id":11,
+        "title": "Beauty and the Beast",
+        "author":"Anonymous",
+        "category":"Children",
+        "price":1.90,
+        "type":"pdf",
+        "src":"beautyandthebeast.jfif"
+    },
+    {
+        "id":12,
+        "title": "Grimms Fairy Tales",
+        "author":"Jacob Grimm and Wilhelm Grimm",
+        "category":"children",
+        "price":2.27,
+        "type":"pdf",
+        "src":"grymms.jfif"
+    },
+    {
+        "id":13,
+        "title": "Oliver Twist",
+        "author":"Children",
+        "category":"Fiction",
+        "price":2.45,
+        "type":"pdf",
+        "src":"olivertwist.jfif"
+    },
+    {
+        "id":14,
+        "title": "Through the Looking Glas",
+        "author":"Lewis Carroll",
+        "category":"Children",
+        "price":2.32,
+        "type":"pdf",
+        "src":"alice.jfif"
+    },
+    {
+        "id":15,
+        "title": "Adventures of Pinocchio",
+        "author":"Carlo Colodi",
+        "category":"Children",
+        "price":1.12,
+        "type":"pdf",
+        "src":"picoccio.jfif"
+    },
+    {
+        "id":16,
+        "title": "Beauty and the Beast",
+        "author":"Anonymous",
+        "category":"Children",
+        "price":4.25,
+        "type":"Paperback",
+        "src":"beautyandthebeast.jfif"
+    },
+    {
+        "id":17,
+        "title": "Grimms Fairy Tales",
+        "author":"Jacob Grimm and Wilhelm Grimm",
+        "category":"children",
+        "price":4.78,
+        "type":"Paperback",
+        "src":"grymms.jfif"
+    },
+    {
+        "id":18,
+        "title": "Oliver Twist",
+        "author":"Children",
+        "category":"Fiction",
+        "price":4.49,
+        "type":"Paperback",
+        "src":"olivertwist.jfif"
+    },
+    {
+        "id":19,
+        "title": "Through the Looking Glas",
+        "author":"Lewis Carroll",
+        "category":"Children",
+        "price":3.20,
+        "type":"Paperback",
+        "src":"alice.jfif"
+    },
+    {
+        "id":20,
+        "title": "Adventures of Pinocchio",
+        "author":"Carlo Colodi",
+        "category":"Children",
+        "price":3.45,
+        "type":"Paperback",
+        "src":"picoccio.jfif"
     }
-    
 ]
