@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Searchbooks from './components/searchbooks';
 import Showbook from './components/showbook.js';
+import Showcart from './components/showcart.js';
 import './index.css';
 import Home from './components/hometemp.js';
 import Menu from './components/menu';
@@ -15,6 +16,7 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="searchbooks" element={<Searchbooks />} />
         <Route path="showbook" element={<Showbook />} />
+        <Route path="showcart" element={<Showcart />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
