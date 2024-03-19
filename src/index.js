@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Searchbooks from './components/searchbooks';
+import Showbook from './components/showbook.js';
 import './index.css';
-
 import Home from './components/hometemp.js';
 import Menu from './components/menu';
 import reportWebVitals from './reportWebVitals';
@@ -14,7 +14,7 @@ export default function App() {
         <Route path="/" element={<Menu />} />
         <Route index element={<Home />} />
         <Route path="searchbooks" element={<Searchbooks />} />
-        
+        <Route path="showbook" element={<Showbook />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>

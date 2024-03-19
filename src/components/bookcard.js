@@ -23,23 +23,33 @@ import Img20 from '../images/alice.jfif';
 import Img21 from '../images/pinocchio.jfif';
 import {Link} from 'react-router-dom';
 
-export default function bookcard(books) {
-    const {id,title,autor,type,price,src} =books;
+export default function bookcard(book) {
+    const {id,title,autor,type,price,src} =book;
 const imgarray=[Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9,Img10,
     Img11,Img12,Img13,Img14,Img15,Img16,Img17,Img18,Img19,Img20,Img21]
 let imgsrc=imgarray[id-1];
   return (
-    <div>
-        <div classname='bookcard'>
-            <img
-                src={imgsrc}
-                alt="book"
-            />
-            {title}<br/>
-            {autor}<br/>
-            {type}<br/>
-            {price}<br/>
+    
+        <div classname='bookstyle'>
+            <input type="hidden" id={id} />
+            <Link to=
+                {"/showbook"}
+                 state={book}>
+                    <img
+                        src={imgsrc}
+                        alt="book"
+                        className='imgstyle'
+                    />
+            </Link>
+            Title: {title}<br/>
+            Autor: {autor}<br/>
+            Type: {type}<br/>
+            Price: {price}<br/>
+            <Link to=
+                {"/showbook"}
+                 state={book}>
+                <button>Show book</button>
+            </Link>
         </div>
-    </div>
   )
 }

@@ -1,14 +1,14 @@
 import React from 'react';
 import './searchbooks.css';
-import showbook from './showbook.js';
-import bookcard from './bookcard.js';
-import books from './books.json';
+import Bookcard from './bookcard.js';
+import Books from './books.json';
 import Menu from './menu.js'
 
 export default function searchbooks() {
   const allBooks=(values)=>{
-    <div key={values.id}>
-      <bookcard
+    return(
+      <div className='book' key={values.id}>
+      <Bookcard
       id={values.id}
       title={values.title}
       autor={values.autor}
@@ -18,12 +18,18 @@ export default function searchbooks() {
       />
 
     </div>
+    );
 }
   return (
-    <div>
+    
+   <div>
       <Menu />
-      <h1>Search books</h1>
-      {books.map(allBooks)}
+      <div>
+        <h1>Search books</h1>
+          <div className='bookdisplay'>
+          {Books.map(allBooks)}
+          </div>
+      </div>
     </div>
   );
   }

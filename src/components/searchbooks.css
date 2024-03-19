@@ -1,0 +1,15 @@
+.book
+{
+    
+    display: flex;
+    flex-direction: row;
+    max-width: 10%;
+    
+}
+.bookdiplay
+{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
