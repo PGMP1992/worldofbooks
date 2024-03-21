@@ -1,0 +1,16 @@
+.showbook
+{
+    display: flex;
+    flex-direction: row;
+}
+.showimg
+{
+    width: 40%;
+    border-style: solid;
+    border-color: rgb(228, 228, 228);
+}
+.showinfo
+{
+    font-size: 20px;
+    margin-left: 20px;
+}

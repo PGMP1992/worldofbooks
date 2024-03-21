@@ -1,31 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Searchbooks from './components/searchbooks';
-import Showbook from './components/showbook.js';
-import './index.css';
-import Home from './components/hometemp.js';
-import Menu from './components/menu';
-import reportWebVitals from './reportWebVitals';
-export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Menu />} />
-        <Route index element={<Home />} />
-        <Route path="searchbooks" element={<Searchbooks />} />
-        <Route path="showbook" element={<Showbook />} />
-        <Route path="*" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-  )
-}
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+
+
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

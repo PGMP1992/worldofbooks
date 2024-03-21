@@ -1,0 +1,18 @@
+.cartpage
+{
+   display: flex;
+   flex-direction: row;
+   align-items: left;
+   margin-left: 20px;
+}
+.cartpage2
+{
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   margin-left: 100px;
+}
+.checkout
+{
+   align-items: center;
+}

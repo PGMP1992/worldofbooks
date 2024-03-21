@@ -1,13 +1,15 @@
-.bookstyle
-{
-    display: flex;
-    flex-direction: column;
-    border-style:solid;
-    border-color: blue;
-    text-align: center;
-  
-}
+
 .imgstyle
 {
     width: 80%;
+    height: auto;
+    border-style:solid;
+    mask-border-width: 1px;
+    border-color: rgb(228, 228, 228);
+}
+.info
+{
+    font-size: 12px;
+    text-align: left;
+    align-items: center;
 }
