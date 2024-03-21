@@ -34,14 +34,9 @@ export default function Searchbooks() {
     
 }
 
-const selectedBooks=(values)=>{
+
   
 
-  if (values.title.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase())
-  || values.type.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase())
-  || values.category.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase())
-  || values.author.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase()))
-    {
   return(
     
     <div className='book' key={values.id}>
