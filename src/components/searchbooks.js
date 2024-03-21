@@ -9,10 +9,14 @@ export default function Searchbooks() {
 
   const [searchVal,setSearchVal]=useState("");
  function handleSearchClick(){
-   Books.map(allBooks)
+   Books.map(selectedBooks)
   }
  
-  const allBooks=(values)=>{
+  const selectedBooks=(values)=>{
+    if (values.title.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase())
+  || values.type.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase())
+  || values.category.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase())
+  || values.author.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase()))
     return(
       <div className='book' key={values.id}>
       <Bookcard
@@ -37,7 +41,7 @@ export default function Searchbooks() {
         <input onChange={e=>setSearchVal(e.target.value)}></input>
         <BsSearch onClick={handleSearchClick}/>
           <div className='bookdisplay'>
-          {Books.map(allBooks)}
+          {Books.map(selectedBooks)}
           </div>
       </div>
     </div>

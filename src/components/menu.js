@@ -12,8 +12,8 @@ export default function Menu() {
                    </Link>
                 </li>
                 <li>
-                   <Link to="/searchbooks">
-                        Search
+                   <Link to="/books">
+                        Books
                    </Link>
                 </li>
                 

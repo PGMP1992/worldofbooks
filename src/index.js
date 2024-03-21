@@ -1,20 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Searchbooks from './components/searchbooks';
+import { BrowserRouter, Routes, Route, Outlet} from "react-router-dom";
+import Books from './components/searchbooks';
 import Showbook from './components/showbook.js';
 import Showcart from './components/showcart.js';
 import './index.css';
-import Home from './components/hometemp.js';
+import Home from './components/home.js';
 import Menu from './components/menu';
 import reportWebVitals from './reportWebVitals';
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+      <Route path="/" element={<Outlet />}/>
         <Route path="/" element={<Menu />} />
         <Route index element={<Home />} />
-        <Route path="searchbooks" element={<Searchbooks />} />
+        <Route path="books" element={<Books />} />
         <Route path="showbook" element={<Showbook />} />
         <Route path="showcart" element={<Showcart />} />
         <Route path="*" element={<Home />} />
