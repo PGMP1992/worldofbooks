@@ -24,7 +24,7 @@ import Img21 from '../images/pinocchio.jfif';
 import {Link} from 'react-router-dom';
 
 export default function bookcard(book) {
-    const {id,title,author,type,price,src,category} =book;
+    const {id,title,author,type,price,category} =book;
 const imgarray=[Img1,Img2,Img3,Img4,Img5,Img6,Img7,Img8,Img9,Img10,
     Img11,Img12,Img13,Img14,Img15,Img16,Img17,Img18,Img19,Img20,Img21]
 let imgsrc=imgarray[id-1];
