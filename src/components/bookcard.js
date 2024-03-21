@@ -7,7 +7,7 @@ import Img4 from '../images/thecleancoder.png';
 import Img5 from '../images/learningvue.png';
 import Img6 from '../images/imnotsleepy.png';
 import Img7 from '../images/japantravelguide.png';
-import Img8 from '../images/grymms.jfif';
+import Img8 from '../images/nepaltravelguide.png';
 import Img9 from '../images/pocketmadeira.png';
 import Img10 from '../images/whatmakesagarden.png';
 import Img11 from '../images/100herbstogrow.png'
