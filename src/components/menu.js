@@ -9,6 +9,7 @@ import Typewriter from "typewriter-effect";
 
 export default function Menu() {
   return (
+<<<<<<< HEAD
     <Container fluid className="home-section" id="home">
       <Outlet />
           <Row>
@@ -31,5 +32,25 @@ export default function Menu() {
             </Col>
           </Row>
       </Container>
+=======
+    <>
+        <nav>
+            <ul>
+                <li>
+                   <Link to="/">
+                        Home
+                   </Link>
+                </li>
+                <li>
+                   <Link to="/books">
+                        Books
+                   </Link>
+                </li>
+                
+            </ul>
+        </nav>
+        <Outlet />
+    </>
+>>>>>>> 50a35a57fee4ac7a3bbbdd8048b02a0293fa9c94
   );
 }

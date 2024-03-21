@@ -8,11 +8,23 @@ import {BsSearch} from 'react-icons/bs'
 export default function Searchbooks() {
 
   const [searchVal,setSearchVal]=useState("");
+<<<<<<< HEAD
  function handleSearchClick(){
    Books.map(selectedBooks)
   }
  
   const allBooks=(values)=>{
+=======
+  function handleSearchClick(){
+   Books.map(selectedBooks)
+  }
+ 
+  const selectedBooks=(values)=>{
+    if (values.title.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase())
+  || values.type.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase())
+  || values.category.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase())
+  || values.author.toLocaleLowerCase().includes(searchVal.toLocaleLowerCase()))
+>>>>>>> 50a35a57fee4ac7a3bbbdd8048b02a0293fa9c94
     return(
       <div className='book' key={values.id}>
       <Bookcard
@@ -28,6 +40,7 @@ export default function Searchbooks() {
     </div>
     );
     
+<<<<<<< HEAD
 }
 
 const selectedBooks=(values)=>{
@@ -54,7 +67,12 @@ const selectedBooks=(values)=>{
   </div>
   );
     }
+=======
+>>>>>>> 50a35a57fee4ac7a3bbbdd8048b02a0293fa9c94
 }
+
+
+  
   return (
     
    <div>
